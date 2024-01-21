@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -23,7 +22,7 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             text-align: center;
-        }
+        } 
 
         h2 {
             color: rgb(221, 114, 5);
@@ -51,13 +50,14 @@
             padding: 2%;
             text-align: left;
             color: black;
-            font-size: 16px;
+            font-size: 16px; 
         }
 
         li {
             margin-bottom: 8px;
             display: flex;
-            align-items: center;
+            align-items: center; 
+            list-style-type: disc !important;
         }
 
         h6 {
@@ -88,6 +88,49 @@
 
         .plastics {
             color: #b3856a;
+        }
+
+        thead,
+        tfoot {
+            background-color: rgb(221, 114, 5);
+            color: #fff;
+        }
+
+        tbody {
+            background-color: rgb(255, 225, 188);
+            color: black;
+        }
+
+        caption {
+            padding: 10px;
+            caption-side: bottom; 
+            color: black; 
+            font-weight: bold; 
+            font-size: large;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(0, 0, 0);
+            letter-spacing: 1px;
+            font-family: sans-serif;
+            font-size: 0.8rem;
+        }
+
+        td,
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 5px 10px;
+            text-align: center;
+        }
+
+        td {
+            text-align: center;
+        } 
+
+        a{
+            text-decoration: none; 
+            color: rgb(240, 167, 78);
         }
 
         blockquote {
@@ -122,12 +165,13 @@
                 font-size: 15px;
             }
             .container p{
-                font-size: 13px;
-            }
+                font-size: 12px;
+            } 
 
             .container ul {
                 padding-left: 10px;
-                font-size: 12px; 
+                /* font-size: 12px;  */
+                list-style-type: disc;
             }
 
             blockquote {
@@ -154,35 +198,54 @@
 
 <body>
     <div class="container">
-        <h2>Worry not, at Because Write, we got You!</h2>
-        <p>Hey there, are you preparing for the IELTS exam? You're probably stressing about the Writing Task 1. But don't worry, we've got your back! In this email, we'll give you a sneak peek of the details on how to write an awesome IELTS Task 1 essay without losing your mind.</p>
+        <h2>Let's build on that Task 1 we sent you days back.</h2>
+        <p>So, we were given a line graph and were required to summarise the main points and make relevant comparisons. Let's continue writing our essay.</p>
 
-        <p class="mini-heading">Tip of the Day: <span class="tip-day">Read and Understand the Task!</span></p>
+        <p class="mini-heading">Tip of the Day <span class="tip-day">Plan Your Essay</span></p>
         <img src="../assets/Task_1_Line_Graph.jpg" />
-        <p class="mini-heading">Rephrasing the question:</p>
-        <p>"This graph shows the proportions of four different materials that were recycled from 1982 to 2010 in a particular country."</p>
-        <p class="tip-day">Becomes:</p>
-        <p>“<span class="glass">The line graph displays the recycling trends</span> of a <span class="aluminim">select few materials</span> <span class="paper">over the span of almost 3 decades from 1982 to 2010 </span>  <span class="plastics"> in a specific region. </span>”</p>
-        <p class="tip-day">A breakdown:</p>
+        <p class="mini-heading">The Overview:</p>
+        <p>The overview in your response should summarise what you see in the visual diagram. It should summarise the main: </p>
         <ul>
-            <li>“This graph shows the proportions of” —> <span class="glass"> The line graph displays the recycling trends of </span></li>
-            <li>“four different materials” —> <span class="aluminim">a select few materials </span></li>
-            <li>“from 1982 to 2010” —> <span class="paper"> "over the span of almost 3 decades from 1982 to 2010 </span></li>
-            <li>“in a particular country” —> <span class="plastics"> in a specific region </span></li>
+            <li>> Trends</li>
+            <li>> Changes</li>
+            <li>> Developments</li> 
+            <li>> Stages</li>
+            <li>> Noticable features</li>
         </ul>
-        <p>Now that we understand the task, let's write the introduction.</p>
-        <p class="mini-heading">Writing the Introduction!</p>
-        <p>The purpose of an introduction is to provide the examiner with a clear overview of your upcoming writing.</p>
-        <ul>
-            <li>1. Rephrase the question in your own words.</li>
-            <li>2. Explain the visual diagram's nature, data source, and collection timeframe.</li>
-            <li>3. For two diagrams, give a brief introduction for each.</li>
-            <li>4. Aim for concise and effective communication.</li>
-        </ul>
+        <p class="mini-heading">What you should look out for</p>
+        <table>
+            <thead>
+              <tr>
+                <th>DOs</th>
+                <th scope="col">DON'Ts</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Use cohesive devices to summarise the main features of the task (Overall, In summary) </th>
+                <td>Use specific data and numbers in your overview, this part is only meant to be a summary </td>
+              </tr>
+              <tr>
+                <th scope="row">Identify key trends in the data. Is there an increase, decrease or overall fluctuation in the data? Are there any maximums or minimums? Is the data consistent? </th>
+                <td>Focus on everything in the overview, the overview should only be a summary of the most notable information. </td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="tip-day">Here is our overview: </p>
+          <p class="aluminim"><span class="glass">Overall</span>, paper, cardboard and glass containers were the most recycled materials, <span class="glass"> whereas</span> the rate of aluminium recycling had the most significant increase,<span class="glass"> while </span> plastics saw little to no increase over the given period.  </p> 
+          <ul>
+            <li>> Cohesive devices and linking words (<span class="glass">in red</span>) </li>
+            <li>> Key feature i.e., increases, decreases and fluctuations (<span class="aluminim">in green </span>)</li>
+            <li><a href="https://7esl.com/linking-words/"> <span style="color: black;">> </span>More on Linking words and how to use them</a></li>
+          </ul> 
+          <p>Now we have paraphrased the question and written the overview, let's put them together to form the <span style="font-weight: bold;"> Introduction: </span> </p> 
+
+          <p style="font-weight: bold;"> <em>The line graph displays the recycling trends of a select few materials over the span of almost 3 decades from 1982 to 2010 in a specific region. Overall, paper, cardboard and glass containers were the most recycled materials, whereas the rate of aluminium recycling had the most significant increase, while plastics saw little to no increase in recycling over the given period. </em></p>
+
         <p class="mini-heading">Remember</p>
         <blockquote>
-            <p>Any fool can know. The point is to understand.</p>
-            <footer style="color: black;">- Albert Einstein</footer>
+            <p>Planning is the compass that turns dreams into reality, guiding each step with purpose and transforming uncertainty into opportunity</p>
+            <footer style="color: black;">- Mpesh</footer>
         </blockquote>
         <!-- Footer -->
     </div>
