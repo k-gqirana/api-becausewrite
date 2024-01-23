@@ -791,8 +791,251 @@ const emailTips = [
     `,
   },
   {
-    subject: "",
-    html: "",
+    subject: "IELTS Task 1, what can I expect? ",
+    html: `<!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                font-family: 'Arial', sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 0;
+                background-color: rgb(255, 225, 188);
+                color: rgb(221, 114, 5); 
+                font-family: sans-serif;
+            }
+    
+            .container {
+                max-width: 650px; /* Fixed width for desktop screens */
+                margin: 20px auto;
+                padding: 20px;
+                background-color: white;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                text-align: center;
+            } 
+    
+            h2 {
+                color: rgb(221, 114, 5);
+            }
+    
+            p {
+                margin-bottom: 15px;
+                font-size: 18px; /* Adjusted font size for <p> tags */
+                color: black;
+            }
+    
+            em {
+                color: rgb(221, 114, 5);
+                font-style: italic;
+            }
+    
+            img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin: 10px 0;
+            }
+    
+            ul {
+                padding: 2%;
+                text-align: left;
+                color: black;
+                font-size: 18px; 
+            }
+    
+            li {
+                margin-bottom: 8px;
+                display: flex;
+                align-items: center; 
+                list-style-type: disc !important;
+            }
+    
+            h6 {
+                color: rgb(221, 114, 5);
+            }
+    
+            .mini-heading {
+                color: rgb(221, 114, 5);
+                font-size: 1.15rem;
+            }
+    
+            .tip-day {
+                font-weight: bold;
+            }
+    
+            /* Graph Colors */
+            .glass {
+                color: #bc3e53;
+            }
+    
+            .aluminim {
+                color: #77b894;
+            }
+    
+            .paper {
+                color: #5b84a5;
+            }
+    
+            .plastics {
+                color: #b3856a;
+            }
+    
+            thead,
+            tfoot {
+                background-color: rgb(221, 114, 5);
+                color: #fff;
+            }
+    
+            tbody {
+                background-color: rgb(255, 225, 188);
+                color: black;
+            }
+    
+            caption {
+                padding: 10px;
+                caption-side: bottom; 
+                color: black; 
+                font-weight: bold; 
+                font-size: large;
+            }
+    
+            table {
+                border-collapse: collapse;
+                border: 2px solid rgb(0, 0, 0);
+                letter-spacing: 1px;
+                /* font-family: sans-serif; */
+                font-size: 16px;
+            }
+    
+            td,
+            th {
+                border: 1px solid rgb(190, 190, 190);
+                padding: 5px 10px;
+                text-align: center;
+            }
+    
+            td {
+                text-align: center;
+            } 
+    
+            a{
+                text-decoration: none; 
+                color: rgb(240, 167, 78);
+            }
+    
+            blockquote {
+                margin-left: 20%;
+                width: 60%;
+            }
+    
+            blockquote p {
+                padding: 15px;
+                background: rgb(255, 225, 188);
+                border-radius: 5px;
+            }
+    
+            blockquote p::before {
+                content: '\x81';
+            }
+    
+            blockquote p::after {
+                content: '\x82';
+            }
+    
+            /* Responsive Styles */
+            @media only screen and (max-width: 600px) {
+                .container {
+                    padding: 10px;
+                    border-radius: 10px; /* Remove border radius for full-width */
+                    width: 80%; 
+                    margin: 2% 8%;
+                }  
+    
+                .container h2{
+                    font-size: 15px;
+                }
+                .container p{
+                    font-size: 12px;
+                } 
+    
+                .container ul {
+                    padding-left: 10px;
+                    font-size: 12px; 
+                    list-style-type: disc;
+                } 
+    
+                table{
+                    font-size: 14px;
+                }
+    
+                blockquote {
+                    margin: 0 15%;
+                    width: 70%;
+                }
+            }
+    
+            @media only screen and (max-width: 768px) {
+                h2 {
+                    font-size: 28px;
+                }
+    
+                p {
+                    font-size: 18px;
+                }
+    
+                ul {
+                    padding-left: 30px;
+                }
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="container">
+            <p class="mini-heading">Tip of the Day <span class="tip-day">Conclude</span></p>
+           <p>You're almost there, but don't celebrate just yet. Check your essay for errors, typos, and other embarrassing stuff. Make sure your essay is organised and easy to follow. If you're feeling brave, ask a friend to read it over and give you some feedback. </p> 
+           <h2>Not so fast… </h2>
+           <p>The steps outlined in the previous emails may be a good summary of what you need to do to achieve a high score in your IELTS writing, but what you need more than that is to see these steps in action. So lets write an essay together using these steps (with a few extra tips and tricks), at the end of this course you should have the necessary knowledge and confidence to write an awesome IELTS Task 1 essay! <a>Insert Link Here</a></p>
+            <p class="mini-heading">What are we dealing with? </p>  
+            <p>You can't go into battle without knowing who your enemy is: </p> 
+            <blockquote>
+                <p>If you know the enemy and know yourself, you need not fear the result of a hundred battles. If you know yourself but not the enemy, for every victory gained you will also suffer a defeat. If you know neither the enemy nor yourself, you will succumb in every battle.</p>
+                <footer style="color: black;">- Sun Tzu, The Art of War</footer>
+            </blockquote> 
+            <p>Let's break down all the different types of graphs, charts, and diagrams you might encounter in IELTS Writing Task 1. From line graphs to process diagrams, we'll cover it all! So, take a deep breath and let's dive in. </p> 
+            <p style="font-weight: bold;">Line Graphs </p> 
+            <p>Line graphs show trends over time. They're like a timeline of data that you can use to compare changes over days, months, or years. </p> 
+            <p style="font-weight: bold;">Bar Charts </p>
+            <p>Bar charts show comparisons between different groups or categories. They can be vertical or horizontal and are like the bar graphs you may have seen in math class (but don't worry, we won't make you do any calculations!). </p>
+            <p style="font-weight: bold;">Pie Charts </p> 
+            <p>Pie charts show the distribution of data as percentages of a whole. They're like a delicious pie that's sliced up into different flavours (except, you know, with data instead of pie). </p>
+            <p style="font-weight: bold;">Tables </p> 
+            <p>Tables present data in rows and columns. They're like a spreadsheet that you can use to organise lots of different types of information, from sales figures to survey results. </p>
+            <p style="font-weight: bold;">Maps </p> 
+            <p>Maps show geographical information, such as population density or land use. They're like a treasure map that leads you to the treasure of data (okay, maybe not that exciting, but still pretty cool!). </p>
+            <p style="font-weight: bold;">Process Diagrams </p> 
+            <p>Process diagrams show a sequence of events or steps. They're like a flowchart that you can use to visualise how something works or how a process can be improved. </p> 
+            <p>Okay, now that you know the enemy, how do you tackle it? Simple, with becausewrite. <a>Insert Link</a></p> 
+            <p class="mini-heading">Remember</p> 
+            <blockquote>
+                <p>Writing is the anchor of our thoughts, the vessel of our imagination, and the conduit through which we share the legacy of our minds with the world.</p>
+                <footer style="color: black;">- Khanya.</footer>
+            </blockquote>
+            <!-- Footer -->
+        </div>
+    </body>
+    
+    </html>
+    `,
+  },
+  {
+    subject: "IELTS Task 1, what can I expect? ",
+    html: ``,
   },
 ];
 
