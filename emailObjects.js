@@ -1034,7 +1034,7 @@ const emailTips = [
     `,
   },
   {
-    subject: "IELTS Task 1, what can I expect? ",
+    subject: "What about task 2? ",
     html: ``,
   },
 ];
