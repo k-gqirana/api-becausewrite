@@ -1035,7 +1035,271 @@ const emailTips = [
   },
   {
     subject: "What about task 2? ",
-    html: ``,
+    html: `<!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                font-family: 'Arial', sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 0;
+                background-color: rgb(255, 225, 188);
+                color: rgb(221, 114, 5); 
+                font-family: sans-serif; 
+            }
+    
+            .container {
+                max-width: 650px; /* Fixed width for desktop screens */
+                margin: 20px auto;
+                padding: 20px;
+                background-color: white;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                text-align: left;
+            } 
+    
+            h2 {
+                color: rgb(221, 114, 5);
+            }
+    
+            p {
+                margin-bottom: 15px;
+                font-size: 18px; /* Adjusted font size for <p> tags */
+                color: black;
+            }
+    
+            em {
+                color: rgb(221, 114, 5);
+                font-style: italic;
+            }
+    
+            img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin: 10px 0;
+            }
+    
+            ul {
+                padding: 2%;
+                text-align: left;
+                color: black;
+                font-size: 18px; 
+            }
+    
+            li {
+                margin-bottom: 8px;
+                display: flex;
+                align-items: center; 
+                list-style-type: disc !important;
+            }
+    
+            h6 {
+                color: rgb(221, 114, 5);
+            }
+    
+            .mini-heading {
+                color: rgb(221, 114, 5);
+                font-size: 1.15rem;
+            }
+    
+            .tip-day {
+                font-weight: bold;
+            }
+    
+            /* Graph Colors */
+            .glass {
+                color: #bc3e53;
+            }
+    
+            .aluminim {
+                color: #77b894;
+            }
+    
+            .paper {
+                color: #5b84a5;
+            }
+    
+            .plastics {
+                color: #b3856a;
+            }
+    
+            thead,
+            tfoot {
+                background-color: rgb(221, 114, 5);
+                color: #fff;
+            }
+    
+            tbody {
+                background-color: rgb(255, 225, 188);
+                color: black;
+            }
+    
+            caption {
+                padding: 10px;
+                caption-side: bottom; 
+                color: black; 
+                font-weight: bold; 
+                font-size: large;
+            }
+    
+            table {
+                border-collapse: collapse;
+                border: 2px solid rgb(0, 0, 0);
+                letter-spacing: 1px;
+                /* font-family: sans-serif; */
+                font-size: 16px;
+            }
+    
+            td,
+            th {
+                border: 1px solid rgb(190, 190, 190);
+                padding: 5px 10px;
+                text-align: center;
+            }
+    
+            td {
+                text-align: center;
+            } 
+    
+            a{
+                text-decoration: none; 
+                color: rgb(240, 167, 78);
+            }
+    
+            blockquote {
+                margin-left: 20%;
+                width: 60%;
+            }
+    
+            blockquote p {
+                padding: 15px;
+                background: rgb(255, 225, 188);
+                border-radius: 5px;
+            }
+    
+            blockquote p::before {
+                content: 'X86';
+            }
+    
+            blockquote p::after {
+                content: 'X86';
+            }
+    
+            /* Responsive Styles */
+            @media only screen and (max-width: 600px) {
+                .container {
+                    padding: 10px;
+                    border-radius: 10px; /* Remove border radius for full-width */
+                    width: 80%; 
+                    margin: 2% 8%;
+                }  
+    
+                .container h2{
+                    font-size: 15px;
+                }
+                .container p{
+                    font-size: 12px;
+                } 
+    
+                .container ul {
+                    padding-left: 10px;
+                    font-size: 12px; 
+                    list-style-type: disc;
+                } 
+    
+                table{
+                    font-size: 14px;
+                }
+    
+                blockquote {
+                    margin: 0 15%;
+                    width: 70%;
+                }
+            }
+    
+            @media only screen and (max-width: 768px) {
+                h2 {
+                    font-size: 28px;
+                }
+    
+                p {
+                    font-size: 18px;
+                }
+    
+                ul {
+                    padding-left: 30px;
+                }
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="container">
+           <p>You've got task 1 in the bag. Alright, on to task 2. You're probably feeling overwhelmed. But worry not, in this email we'll provide you with a step-by-step approach to ease your mind. </p> 
+           <p class="mini-heading">What are the next steps?</p>  
+           <p>We'll follow the same procedure as we did for task 1 in the previous emails.></p>
+            <p style="font-weight: bold;">Step 1: Understand the Task</p> 
+            <p>Read the essay question carefully and make sure you understand what is being asked of you. Pay attention to the topic, the task instructions, and the key words used. If you don't understand something, don't just guess! Look up the meaning of words and phrases you don't know. </p> 
+            <p style="font-weight: bold;">Step 2: Plan Your Essay</p> 
+            <p>Now that you know what you're dealing with, it's time to plan your essay. Your essay should have four parts: an introduction, two or three main body paragraphs, and a conclusion. In your intro, provide background information on the topic and state your position. In the body, present your arguments and supporting evidence. </p> 
+            <p style="font-weight: bold;">Step 3: Write Your Essay </p>
+            <p>This is the part where you put pen to paper (or fingers to keyboard). Use proper grammar, vocabulary, and sentence structure. Include a variety of sentence structures to demonstrate your command of the English language. Use linking words and phrases to connect your ideas and make your essay easy to follow. </p>
+            <p style="font-weight: bold;">Step 4: Check Your Essay </p> 
+            <p>You're almost there, but don't celebrate just yet. Check your essay for errors, typos, and other embarrassing stuff. Make sure your essay is organised and easy to follow. If you're feeling brave, ask a friend to read it over and give you some feedback. </p>
+            <h2>Example</h2> 
+            <p style="font-weight: bold;">IELTS Writing Task 2 Question </p> 
+            <p>Some people argue that it is the responsibility of individuals to lead a healthy lifestyle, while others believe that governments should promote healthy lifestyle choices. Discuss both views and give your own opinion.
+            </p> 
+            <p>Write at least 250 words.</p>  
+            <p class="mini-heading">Writing the introduction</p> 
+            <p>The purpose of an introduction is to provide the reader with a clear overview of your upcoming essay.</p> 
+            <ul>
+                <li>> Introduce the topic and provide background information.</li>
+                <li>> State your position on the topic.</li>
+                <li>> Preview your arguments in the body paragraphs.</li>
+                <li>> Aim for concise and effective communication.</li>
+            </ul> 
+            <p style="font-weight: bold;">Remember: This is only an example. Just ensure you keep the points above in mind.</p> 
+            <p><em style="color: black;">In recent years, many people have become more aware of the importance of leading a healthy lifestyle. While some believe that this is a personal responsibility, others argue that governments should be responsible for promoting healthy lifestyle choices. In this essay, I will argue that individuals should take responsibility for their own health. First, I will explore the benefits of personal responsibility. Second, I will examine the limitations of government intervention. Finally, I will offer some practical advice for individuals who want to improve their health.</em></p> 
+            <p class="mini-heading">Writing the Key Features</p> 
+            <p>The next step is to write about the key features, which are the arguments you will present in your essay. It is advisable to dedicate one paragraph to each argument and support it with evidence and examples.</p> 
+            <p style="font-weight: bold;">What to include in each body paragraph?</p> 
+            <ul>
+                <li>> A clear topic sentence that presents the argument.</li>
+                <li>> Supporting evidence that explains and supports the argument.</li>
+                <li>> Examples that illustrate the argument.</li>
+                <li>> A concluding sentence that links back to the thesis statement.</li>
+            </ul>
+            <p>The easiest way to achieve this is to use the PEEL method when structuring your paragraphs.</p> 
+            <p class="mini-heading">What is a PEEL Paragraph?</p> 
+            <ul style="font-weight: bold;">
+                <li>Step 1: Identify your Point.</li>
+                <li>Step 2: Incorporate Your Example</li>
+                <li>Step 3: Explain How your Example Supports Your Point</li>
+                <li>Step 4: Finish of with Your Link</li>
+            </ul> 
+            <a class="mini-heading" href="https://artofsmart.com.au/english/peel-paragraph/">Learn More About PEEL:</a>
+            <p class="mini-heading">Example Body Paragraph:</p>
+            <p>One benefit of personal responsibility is that individuals are more likely to take their health seriously. When people are responsible for their own health, they are more likely to exercise regularly, eat a healthy diet, and get enough sleep. For example, a study conducted by the American Heart Association found that people who take personal responsibility for their health have a lower risk of heart disease. In contrast, people who rely on government programs to promote healthy lifestyle choices may not take their health as seriously.</p>  
+            <p class="mini-heading">Writing the conclusion</p>
+            <p>The purpose of a conclusion is to summarize your arguments and restate your position on the topic.</p>
+            <ul>
+                <li>> Summarize your key arguments.</li>
+                <li>> Restate your position on the topic.</li>
+                <li>> Provide a final thought or call to action.</li>
+            </ul>
+            <p class="mini-heading">Example Conclusion</p>  
+            <p>In conclusion, individuals should take responsibility for their own health. Personal responsibility leads to a healthier lifestyle and a lower risk of disease. While governments can play a role in promoting healthy lifestyle choices, they should not be solely responsible for individuals' health. By taking personal responsibility and making healthy choices, individuals can improve their quality of life and reduce their risk of illness.</p>
+            <!-- Footer -->
+        </div>
+    </body>
+    
+    </html>`,
   },
 ];
 
