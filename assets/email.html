@@ -151,6 +151,28 @@
 
         blockquote p::after {
             content: '\201D';
+        } 
+
+        .footer {
+            background-color: rgb(221, 114, 5);
+            color: white;
+            padding: 20px;
+            border-radius: 0;
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: none; 
+            margin: 5px;
+        }
+
+        .footer small {
+            font-size: 10px;
         }
 
         /* Responsive Styles */
@@ -183,6 +205,24 @@
                 margin: 0 15%;
                 width: 70%;
             }
+
+            .footer {
+                border-radius: 10px;
+                padding: 10px;
+                justify-content: center;
+                flex-wrap: nowrap;
+            }
+
+            .footer a {
+                margin: 5px 10px;
+            }
+
+            .footer small a{
+                display: block;
+                margin-top: 10px; 
+                text-align: center;
+            } 
+
         }
 
         @media only screen and (max-width: 768px) {
@@ -196,6 +236,10 @@
 
             ul {
                 padding-left: 30px;
+            }
+
+            .footer a {
+                margin: 5px 10px;
             }
         }
     </style>
@@ -258,7 +302,15 @@
         </ul>
         <p class="mini-heading">Example Conclusion</p>  
         <p>In conclusion, individuals should take responsibility for their own health. Personal responsibility leads to a healthier lifestyle and a lower risk of disease. While governments can play a role in promoting healthy lifestyle choices, they should not be solely responsible for individuals' health. By taking personal responsibility and making healthy choices, individuals can improve their quality of life and reduce their risk of illness.</p>
-        <!-- Footer -->
+    </div> 
+
+     <!-- Footer --> 
+     <div class="footer">
+        <a href="https://becausewrite.onrender.com/">becausewrite</a>
+        <a href="#">Terms and Conditions</a>
+        <a href="#">About the Course</a>
+        <a href="#">Purchase</a> 
+        <small><a style="margin-top: 20%;" href="#">Unsubscribe</a></small>
     </div>
 </body>
 
