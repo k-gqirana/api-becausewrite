@@ -1301,6 +1301,10 @@ const emailTips = [
     
     </html>`,
   },
+  {
+    subject: "",
+    html: ``,
+  },
 ];
 
 module.exports = {
