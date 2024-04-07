@@ -1301,12 +1301,13 @@ const emailTips = [
     
     </html>`,
   },
-  {
-    subject: "",
-    html: ``,
-  },
+  //   {
+  //     subject: "",
+  //     html: ``,
+  //   },
 ];
 
 module.exports = {
   welcomeEmail,
+  emailTips,
 };
